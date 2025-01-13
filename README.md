@@ -41,7 +41,7 @@ Navigate to your forked repository on GitHub.
 Click the green Code button and copy the repository's URL.
 Use the following command in your terminal to clone the repository:
 
-    git clone https://github.com/your-username/HealthCalc.git
+    git clone https://github.com/DeepakSS07/HealthCalc.git
 
 Navigate to the Project Directory:
 
