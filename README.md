@@ -15,34 +15,51 @@ Tech Stack:
     Machine Learning Model: MobileNetV2
     Database: CSV for nutrition values
 
-Here's a more detailed description for HealthCalc to provide a comprehensive understanding of the project:
-HealthCalc: Intelligent Food Recognition and Nutrition Analysis
-
-HealthCalc is an AI-powered web application designed to help users make informed dietary decisions by analyzing their food intake. By combining machine learning and a user-friendly interface, HealthCalc simplifies the process of tracking nutrition and encourages a healthier lifestyle.
-Project Overview
-
-HealthCalc enables users to upload an image of their meal. Using a fine-tuned MobileNetV2 Convolutional Neural Network (CNN), the system identifies the food item in the image and fetches its nutritional information from a curated database stored in a CSV file. This information is presented in an easy-to-read format, helping users monitor their calorie and nutrient consumption.
-Key Features
-
-    Food Recognition:
-        Leverages MobileNetV2, a lightweight and efficient CNN model fine-tuned for food classification.
-        Provides accurate predictions of various food items.
-
-    Nutrition Analysis:
-        Retrieves nutritional data such as calories, protein, fat, carbohydrates, vitamins, and minerals.
-        Helps users make data-driven dietary choices.
-
-    User-Friendly Interface:
-        Built with Flask and styled using Bootstrap for responsiveness.
-        Intuitive design for seamless interaction, allowing users to upload images and view results effortlessly.
-
-    Portable and Scalable:
-        Lightweight application suitable for deployment on platforms like PythonAnywhere.
-        Designed to accommodate future updates, such as adding more food categories and supporting multiple languages.
-
 How It Works
 
     Image Upload: Users upload an image of their food through the web interface.
     Image Processing: The uploaded image is passed through the fine-tuned MobileNetV2 model to identify the food item.
     Database Query: The identified food item is matched with a record in the nutrition database (CSV file).
     Results Displayed: Nutritional details of the food item are presented to the user, including a breakdown of macronutrients and micronutrients.
+
+HomePage
+![image](https://github.com/user-attachments/assets/d987f304-931d-4d23-a45d-69a7c52450c1)
+
+How to Fork This Project:
+
+If you would like to fork this project and make it your own, follow these steps:
+
+Fork the Repository:
+Click on the Fork button at the top-right corner of this repository's page on GitHub.
+This will create a copy of the repository in your GitHub account.
+
+Clone the Forked Repository:
+Navigate to your forked repository on GitHub.
+Click the green Code button and copy the repository's URL.
+Use the following command in your terminal to clone the repository:
+
+    git clone https://github.com/your-username/HealthCalc.git
+
+Navigate to the Project Directory:
+
+    cd HealthCalc
+
+Set Up the Environment:
+Install Python (if not already installed).
+Create and activate a virtual environment:
+
+    python -m venv venv
+    source venv/bin/activate  # For Linux/Mac
+    venv\Scripts\activate     # For Windows
+
+Install dependencies from requirements.txt:
+
+    pip install -r requirements.txt
+
+Run the Project:
+Start the Flask development server:
+
+    flask run
+
+Open your browser and visit http://127.0.0.1:5000 to use the application.
+
