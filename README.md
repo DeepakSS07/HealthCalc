@@ -3,27 +3,30 @@ HealthCalc is a web application designed to promote healthy living by leveraging
 
 Features:
 
-    Food recognition via fine-tuned MobileNetV2 CNN.
-    Detailed nutritional analysis based on a curated database.
-    User-friendly interface built with Flask.
-    Designed for individuals seeking to monitor their dietary intake.
+Food recognition via fine-tuned MobileNetV2 CNN.
+Detailed nutritional analysis based on a curated database.
+User-friendly interface built with Flask.
+Designed for individuals seeking to monitor their dietary intake.
 
 Tech Stack:
 
-    Backend: Flask
-    Frontend: HTML, CSS, Bootstrap
-    Machine Learning Model: MobileNetV2
-    Database: CSV for nutrition values
+Backend: Flask
+Frontend: HTML, CSS, Bootstrap
+Machine Learning Model: MobileNetV2
+Database: CSV for nutrition values
 
 How It Works
 
-    Image Upload: Users upload an image of their food through the web interface.
-    Image Processing: The uploaded image is passed through the fine-tuned MobileNetV2 model to identify the food item.
-    Database Query: The identified food item is matched with a record in the nutrition database (CSV file).
-    Results Displayed: Nutritional details of the food item are presented to the user, including a breakdown of macronutrients and micronutrients.
+1) Image Upload: Users upload an image of their food through the web interface.
+2) Image Processing: The uploaded image is passed through the fine-tuned MobileNetV2 model to identify the food item.
+3) Database Query: The identified food item is matched with a record in the nutrition database (CSV file).
+4) Results Displayed: Nutritional details of the food item are presented to the user, including a breakdown of macronutrients and micronutrients.
 
 HomePage
 ![image](https://github.com/user-attachments/assets/d987f304-931d-4d23-a45d-69a7c52450c1)
+
+![image](https://github.com/user-attachments/assets/433619fc-96a6-4af9-b20f-dbe0881a9f35)
+
 
 How to Fork This Project:
 
