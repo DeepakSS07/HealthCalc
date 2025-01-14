@@ -1,0 +1,2 @@
+1) Create a folder dataser with Test,Train and Validation sub folders.
+2) Use the same folder while fine-tuning the CNN model.
